@@ -26,7 +26,7 @@ that explains how to load an unpacked chrome extension.
 
 ### Sample
 
-[Screenshot](https://github.com/bk2dcradle/cf-collapse/raw/master/images/screenshots/screen-shot-1.png)
+![Screenshot](https://github.com/bk2dcradle/cf-collapse/raw/master/images/screenshots/screen-shot-1.png)
 
 ---
 
