@@ -1,0 +1,18 @@
+{
+    "name": "CF-Comments",
+    "description": "Neater Comments on CF",
+    "version": "0.1.0",
+    "incognito": "split",
+    "manifest_version": 2,
+	"options_page": "options.html",
+	"content_scripts": [
+		{
+			"matches": ["https://*.codeforces.com/blog/entry/*", "http://*.codeforces.com/blog/entry/*", "https://codeforces.com/blog/entry/*",
+			"http://codeforces.com/blog/entry/*"],
+			"css": ["style.css"],
+			"js": ["start.js"],
+			"run_at": "document_end"
+		}
+	],
+	"web_accessible_resources": ["content.js"]
+}

@@ -1,0 +1,65 @@
+div.comment table, caption, tbody, tfoot, thead, tr, th, td {
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+div.comment {
+	line-height: 2;
+	margin: 0;
+}
+div.comment > table > tbody > tr > td.left {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0 0 0 10px;
+	border: 0;
+	outline: 0;
+}
+div.comment > table > tbody > tr > td.right {
+	background: #f0f0f0;
+	display: block;
+	width: 98%;
+	margin: 0;
+	padding: 0 0 0 10px;
+	border: 0;
+	outline: 0;
+}
+div.avatar {
+	display: block;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font-size: 100%;
+}
+ul.comment-children {
+	border-left: 1px dotted #f0f0f0;
+}
+div.info {
+	width: 99%;
+}
+div.comment td.left img {
+	display: none;
+}
+table.highlight-blue tbody tr {
+	background: white;
+}
+div.comment > table.highlight-blue > tbody > tr > td.right {
+	background: #f4faff;
+}
+div.cfc-voila > table > tbody > tr > td.right > .comment-content {
+	display: none;
+}
+div.cfc-voila > table > tbody > tr > td.right > div.reply {
+	display: none;
+}
+div.cfc-voila > table > tbody > tr > td.right {
+	background: #e3dedb;
+}
+div.cfc-voila .comment-children {
+	display: none;
+}
