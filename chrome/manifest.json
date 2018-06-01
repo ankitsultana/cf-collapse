@@ -1,7 +1,7 @@
 {
-    "name": "CF-Comments",
-    "description": "Neater Comments on CF",
-    "version": "0.1.0",
+    "name": "CF-Collapse",
+    "description": "Neater, Collapsible Comments on CF",
+    "version": "1.0.0",
     "incognito": "split",
     "manifest_version": 2,
 	"options_page": "options.html",
@@ -14,5 +14,8 @@
 			"run_at": "document_end"
 		}
 	],
-	"web_accessible_resources": ["content.js"]
+	"web_accessible_resources": ["content.js"],
+	"icons": {
+		"128": "./images/icons/cf-icon-128.png"
+	}
 }
